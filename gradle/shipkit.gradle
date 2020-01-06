@@ -5,14 +5,12 @@
 //     https://github.com/mockito/shipkit/blob/master/docs/getting-started.md
 //
 shipkit {
-    //TODO is the repository correct?
+   
     gitHub.repository = "truthencode/ddo-service"
 
-    //TODO generate and use your own read-only GitHub personal access token
-    //More: https://github.com/mockito/shipkit/blob/master/docs/getting-started.md#production-configuration
+     //More: https://github.com/mockito/shipkit/blob/master/docs/getting-started.md#production-configuration
     gitHub.readOnlyAuthToken = "2619b90d99c8a29c64d7bcd6ca6859a0449d3d32"
 
-    //TODO generate GitHub write token, and ensure your Travis CI has this env variable exported
     //More: https://github.com/mockito/shipkit/blob/master/docs/getting-started.md#write-token
     gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
 
@@ -28,13 +26,11 @@ allprojects {
         //For reference see the official documentation: https://github.com/bintray/gradle-bintray-plugin
         bintray {
 
-            //TODO sign up for free open source account with https://bintray.com, then look up your API key on your profile page in Bintray
-          //  key = '7ea297848ca948adb7d3ee92a83292112d7ae989'
-            //TODO don't check in the key, remove above line and use env variable exported on CI:
+           // don't check in the key, remove above line and use env variable exported on CI:
             key = System.getenv("BINTRAY_API_KEY")
 
             pkg {
-                //TODO configure Bintray settings per your project (https://github.com/bintray/gradle-bintray-plugin)
+                // configure Bintray settings per your project (https://github.com/bintray/gradle-bintray-plugin)
                 repo = 'maven'
                 user = 'adarro'
                 userOrg = 'truthencode'
