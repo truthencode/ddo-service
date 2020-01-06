@@ -16,7 +16,7 @@ shipkit {
     //More: https://github.com/mockito/shipkit/blob/master/docs/getting-started.md#write-token
     gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
 
-    releaseNotes.publicationRepository = "https://dl.bintray.com/truthencode/ddo-service"
+    releaseNotes.publicationRepository = "https://dl.bintray.com/truthencode/ddo-service/"
 
     team.developers = ['adarro:Andre White']
 }
