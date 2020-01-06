@@ -15,6 +15,10 @@ shipkit {
     //TODO generate GitHub write token, and ensure your Travis CI has this env variable exported
     //More: https://github.com/mockito/shipkit/blob/master/docs/getting-started.md#write-token
     gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
+
+    releaseNotes.publicationRepository = "https://dl.bintray.com/truthencode/ddo-service"
+
+    team.developers = ['adarro:Andre White']
 }
 
 allprojects {
