@@ -11,3 +11,5 @@ It will be replaced once we have
 * Concordion
 
 All Playing nice
+
+See [Release Notes](docs/release-notes.md)

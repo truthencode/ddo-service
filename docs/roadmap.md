@@ -44,7 +44,7 @@ Who knows? Tucows can rise again!
 The order of operations will be the Backbone API / core, followed by the clients.  Although I would like to make the world's best character planner, I believe a comprehensive framework would be more beneficial to the DDO world at large. 
 
 ## Backbone
-Backbone should be a restful API. Ideally swagger / open API endpoints by open data internally using Apache Avro as a common serializer / storage. This should allow
+Backbone should be a restful API. Ideally swagger / open API endpoints by OData internally using Apache Avro as a common serializer / storage. This should allow
 Client options to develop third parties without the need to wait for an official client.
 
 ### API
