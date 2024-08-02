@@ -1,0 +1,46 @@
+repo_name: truthencode/ddo-service
+report_id: 6de48e581d01401a73496ee532bfa32c
+version: 0.1
+repo_type: Public
+timestamp: '2024-08-02T02:01:00+00:00'
+requested_by: shipkit-org
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/truthencode/ddo-service
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/truthencode/ddo-service/blob/master/gradle/shipkit.gradle
+  detection_source: gradle/shipkit.gradle
+  last_updated_by: shipkit-org
+  last_updated_on: 2020-01-09 22:31:46.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/truthencode/ddo-service/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Andre White
+  last_updated_on: 2020-01-06 06:05:50.000000000 Z
